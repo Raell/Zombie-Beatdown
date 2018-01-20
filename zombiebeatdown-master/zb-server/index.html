@@ -1,0 +1,111 @@
+<!--Created by: Micah Cinco
+	Version 1. October 2014-->
+
+<html>
+<head>
+	<style>
+		body { font: Georgia, "Times New Roman", Sans-Serif; background: #fff repeat-x; 
+		color: #ffffff; font-size: 15px; background: black }
+		a { color: #A82A15; text-decoration: none; }
+		h1 {  float: left; margin: 20px 10px 0; font-size: 40px; color: #fff; }
+		h2 { font-size: 2.4em; font-weight: normal; margin: 0 0 20px; color: #A82A15;}
+		p  { margin: 5px 0 15px; line-height: 1.6em; }
+		#header { margin: 0 auto; width: 900px}
+		#top { float: left; padding: 0 }
+		#top li { list-style: none; display: inline; }
+		#top li a { float: left; padding: 6px 20px; margin: 3px 2px 0 0; color: #ccc; }
+		#top li a.current { color: #fff; background: #A82A15; }
+		#top li a:hover { background: #808080; color: #fff; }
+		#content { margin: 0 auto; width: 900px; height: 65%;}
+		#center { float: left; width: 100%; margin: 0 0 15px; }
+		#footer { clear: both; padding: 15px 0; border-top: 1px solid #ccc; min-width: 950px }
+		#heartbeat { float: right }
+		form { display: table }
+		.row { display: table-row }
+		label { display: table-cell; padding: 5px}
+		input { display: table-cell; }
+		h3 { display: table-row }
+	</style>
+	<title>Zombie Beatdown Manager</title>
+</head>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#heartbeat").load("heartbeat.html");
+		document.getElementById('file').addEventListener('change', filehandler, false);
+	});
+	
+	function filehandler(evt) {
+		
+		var file = evt.target.files[0];
+		if (file) {
+			var reader = new FileReader();
+			reader.onload = function() {
+				$("#urltext").val(reader.result);
+			}
+			reader.readAsText(file);
+		}
+		else {
+			alert("File is not valid!");
+		}
+		
+	}
+	
+	function checkform() {
+		var urls = $('#urltext').val()
+		if (!urls) {
+			alert("Please enter URL(s) to analyze.");
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+	
+</script>
+<body>
+	<div id="header">
+		<h1><span class="hr">Zombie Beatdown</span> Manager</h1>
+		<ul id="top">
+			<li><a class="current" href="index.html">Create a Task</a></li>
+			<li><a href="check.html">Check Tasks</a></li>
+			<li><a href="delete.html">Delete Tasks</a></li>
+			<li><a href="config.html">Configuration</a></li>
+		</ul>
+		
+	</div>
+	<div id="footer"></div>
+	<div id="content">
+		<div id="center">
+			<div id="heartbeat">
+			</div>
+			<h2>Create a Task</h2>
+			<form method="POST" action="/send">
+				<p>
+					Enter URL(s) separated by a comma/space or use a text file: &nbsp
+					<input type="file" id="file" style="display: none" />
+					<input type="button" value="Browse..." onclick="document.getElementById('file').click();" /> <br>
+					<textarea id="urltext" name="urls" cols="25" rows="5"></textarea>
+				</p>
+
+				<p>
+					Timeout (in seconds): <br>
+					<input type="text" name="timeout">
+				</p>
+
+				<p>
+					Task Priority: <br>
+					<input type="radio" name="priority" value="High"> High<br>
+					<input type="radio" name="priority" value="Normal"> Normal<br>
+					<input type="radio" name="priority" value="Low"> Low<br>
+
+					<input onclick="return checkform()" type="submit" value="Send"> <input type="reset">
+				</p>
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Micah Cinco : ENGR489</p>
+	</div>
+</body>
+</html>

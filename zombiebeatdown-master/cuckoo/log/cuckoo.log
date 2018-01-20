@@ -1,0 +1,632 @@
+2015-01-06 16:49:55,882 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-06 16:49:57,139 [lib.cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2015-01-06 16:49:57,139 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks...
+2015-01-06 16:51:52,773 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://gamespot.com" (task=1)
+2015-01-06 16:51:52,943 [lib.cuckoo.core.scheduler] INFO: Task #1: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 16:51:52,973 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28630 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/1/dump.pcap)
+2015-01-06 16:51:57,787 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 16:52:14,204 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 16:52:16,321 [modules.processing.behavior] ERROR: Analysis results folder does not contain any file.
+2015-01-06 16:52:16,352 [modules.processing.memory] ERROR: Cannot run volatility module: volatility library not available
+2015-01-06 16:52:16,353 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/1/dump.pcap".
+2015-01-06 16:52:17,718 [lib.cuckoo.core.scheduler] INFO: Task #1: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/1)
+2015-01-06 16:52:17,942 [lib.cuckoo.core.scheduler] INFO: Task #1: analysis procedure completed
+2015-01-06 16:56:25,521 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-06 16:56:26,323 [lib.cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2015-01-06 16:56:26,328 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-06 16:56:58,988 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=2)
+2015-01-06 16:56:59,166 [lib.cuckoo.core.scheduler] INFO: Task #2: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 16:56:59,171 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 29171 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/2/dump.pcap)
+2015-01-06 16:57:03,044 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 16:57:19,422 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 16:57:21,417 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 16:57:21,418 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/2/dump.pcap".
+2015-01-06 16:57:23,635 [lib.cuckoo.core.scheduler] INFO: Task #2: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/2)
+2015-01-06 16:57:23,825 [lib.cuckoo.core.scheduler] INFO: Task #2: analysis procedure completed
+2015-01-06 17:12:06,790 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=3)
+2015-01-06 17:12:06,947 [lib.cuckoo.core.scheduler] INFO: Task #3: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 17:12:06,951 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 29759 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/3/dump.pcap)
+2015-01-06 17:12:10,808 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 17:12:27,153 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 17:12:29,291 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 17:12:29,294 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/3/dump.pcap".
+2015-01-06 17:12:30,890 [lib.cuckoo.core.scheduler] INFO: Task #3: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/3)
+2015-01-06 17:12:31,137 [lib.cuckoo.core.scheduler] INFO: Task #3: analysis procedure completed
+2015-01-06 19:16:55,426 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=4)
+2015-01-06 19:16:55,614 [lib.cuckoo.core.scheduler] INFO: Task #4: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 19:16:55,621 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 31765 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/4/dump.pcap)
+2015-01-06 19:16:59,484 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 19:17:15,870 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 19:17:17,937 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 19:17:17,938 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/4/dump.pcap".
+2015-01-06 19:17:19,839 [lib.cuckoo.core.scheduler] INFO: Task #4: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/4)
+2015-01-06 19:17:20,046 [lib.cuckoo.core.scheduler] INFO: Task #4: analysis procedure completed
+2015-01-06 19:23:44,547 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=5)
+2015-01-06 19:23:44,734 [lib.cuckoo.core.scheduler] INFO: Task #5: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 19:23:44,739 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 692 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/5/dump.pcap)
+2015-01-06 19:23:48,738 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 19:24:06,070 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 19:24:09,347 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 19:24:09,349 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/5/dump.pcap".
+2015-01-06 19:24:11,308 [lib.cuckoo.core.scheduler] INFO: Task #5: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/5)
+2015-01-06 19:24:11,552 [lib.cuckoo.core.scheduler] INFO: Task #5: analysis procedure completed
+2015-01-06 19:27:13,264 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=6)
+2015-01-06 19:27:13,451 [lib.cuckoo.core.scheduler] INFO: Task #6: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 19:27:13,457 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 1042 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/6/dump.pcap)
+2015-01-06 19:27:17,430 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 19:27:33,800 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 19:27:36,134 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 19:27:36,135 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/6/dump.pcap".
+2015-01-06 19:27:37,890 [lib.cuckoo.core.scheduler] INFO: Task #6: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/6)
+2015-01-06 19:27:38,117 [lib.cuckoo.core.scheduler] INFO: Task #6: analysis procedure completed
+2015-01-06 19:47:52,669 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=7)
+2015-01-06 19:47:52,849 [lib.cuckoo.core.scheduler] INFO: Task #7: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 19:47:52,854 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 1776 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/7/dump.pcap)
+2015-01-06 19:47:57,145 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 19:48:13,520 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 19:48:15,640 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 19:48:15,642 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/7/dump.pcap".
+2015-01-06 19:48:17,222 [lib.cuckoo.core.scheduler] INFO: Task #7: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/7)
+2015-01-06 19:48:17,416 [lib.cuckoo.core.scheduler] INFO: Task #7: analysis procedure completed
+2015-01-06 19:50:48,201 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.gamefaqs.com" (task=8)
+2015-01-06 19:50:48,381 [lib.cuckoo.core.scheduler] INFO: Task #8: acquired machine cuckoo1 (label=Win7-64)
+2015-01-06 19:50:48,386 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 2176 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/8/dump.pcap)
+2015-01-06 19:50:52,392 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-06 19:51:08,744 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-06 19:51:10,977 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-06 19:51:10,978 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/8/dump.pcap".
+2015-01-06 19:51:12,858 [lib.cuckoo.core.scheduler] INFO: Task #8: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/8)
+2015-01-06 19:51:13,071 [lib.cuckoo.core.scheduler] INFO: Task #8: analysis procedure completed
+2015-01-07 20:07:45,680 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamespot.com" (task=9)
+2015-01-07 20:07:45,849 [lib.cuckoo.core.scheduler] INFO: Task #9: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 20:07:45,854 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 23690 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/9/dump.pcap)
+2015-01-07 20:07:49,694 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 20:08:08,007 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 20:08:10,616 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 20:08:10,618 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/9/dump.pcap".
+2015-01-07 20:08:12,892 [lib.cuckoo.core.scheduler] INFO: Task #9: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/9)
+2015-01-07 20:08:13,082 [lib.cuckoo.core.scheduler] INFO: Task #9: analysis procedure completed
+2015-01-07 20:10:51,544 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamespot.com" (task=10)
+2015-01-07 20:10:51,698 [lib.cuckoo.core.scheduler] INFO: Task #10: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 20:10:51,704 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 24008 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/10/dump.pcap)
+2015-01-07 20:10:55,550 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 20:11:14,946 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 20:11:17,565 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 20:11:17,567 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/10/dump.pcap".
+2015-01-07 20:11:19,125 [lib.cuckoo.core.scheduler] INFO: Task #10: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/10)
+2015-01-07 20:11:19,322 [lib.cuckoo.core.scheduler] INFO: Task #10: analysis procedure completed
+2015-01-07 20:22:26,204 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamefaqs.com" (task=11)
+2015-01-07 20:22:26,400 [lib.cuckoo.core.scheduler] INFO: Task #11: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 20:22:26,406 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 24490 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/11/dump.pcap)
+2015-01-07 20:22:30,514 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 20:22:49,053 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 20:22:51,530 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 20:22:51,532 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/11/dump.pcap".
+2015-01-07 20:22:53,139 [lib.cuckoo.core.scheduler] INFO: Task #11: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/11)
+2015-01-07 20:22:53,310 [lib.cuckoo.core.scheduler] INFO: Task #11: analysis procedure completed
+2015-01-07 20:25:17,750 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamefaqs.com" (task=12)
+2015-01-07 20:25:17,937 [lib.cuckoo.core.scheduler] INFO: Task #12: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 20:25:17,941 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 24790 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/12/dump.pcap)
+2015-01-07 20:25:21,915 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 20:25:40,259 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 20:25:42,464 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 20:25:42,465 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/12/dump.pcap".
+2015-01-07 20:25:44,237 [lib.cuckoo.core.scheduler] INFO: Task #12: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/12)
+2015-01-07 20:25:44,446 [lib.cuckoo.core.scheduler] INFO: Task #12: analysis procedure completed
+2015-01-07 20:34:10,410 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-07 20:34:11,797 [lib.cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2015-01-07 20:34:11,805 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-07 22:26:56,058 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-07 22:26:58,097 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-07 22:26:58,100 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-07 22:26:58,102 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-07 22:27:15,526 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamefaqs.com" (task=13)
+2015-01-07 22:27:15,770 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=14)
+2015-01-07 22:27:15,973 [lib.cuckoo.core.scheduler] INFO: Task #13: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 22:27:16,054 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 27999 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/13/dump.pcap)
+2015-01-07 22:27:16,391 [lib.cuckoo.core.scheduler] INFO: Task #14: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-07 22:27:16,397 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28000 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/14/dump.pcap)
+2015-01-07 22:27:16,926 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.facebook.com" (task=15)
+2015-01-07 22:27:17,366 [lib.cuckoo.core.scheduler] INFO: Task #15: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-07 22:27:17,373 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28039 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/15/dump.pcap)
+2015-01-07 22:27:38,571 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-07 22:27:39,608 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-07 22:27:59,524 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 22:28:16,552 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-07 22:28:19,630 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-07 22:28:34,688 [modules.processing.analysisinfo] CRITICAL: Failed to get start/end time from Task.
+2015-01-07 22:28:34,718 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:28:34,719 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.sp.edu.sg" (task=16)
+2015-01-07 22:28:34,726 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:28:34,736 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/14/dump.pcap".
+2015-01-07 22:28:34,794 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/15/dump.pcap".
+2015-01-07 22:28:35,749 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.co.nz" (task=17)
+2015-01-07 22:28:36,170 [lib.cuckoo.core.scheduler] INFO: Task #16: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-07 22:28:36,425 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28361 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/16/dump.pcap)
+2015-01-07 22:28:36,721 [lib.cuckoo.core.scheduler] INFO: Task #17: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-07 22:28:36,727 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28362 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/17/dump.pcap)
+2015-01-07 22:28:41,955 [lib.cuckoo.core.scheduler] INFO: Task #15: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/15)
+2015-01-07 22:28:41,969 [lib.cuckoo.core.scheduler] INFO: Task #14: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/14)
+2015-01-07 22:28:43,137 [lib.cuckoo.core.scheduler] INFO: Task #15: analysis procedure completed
+2015-01-07 22:28:43,569 [lib.cuckoo.core.scheduler] INFO: Task #14: analysis procedure completed
+2015-01-07 22:28:49,408 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 22:29:02,271 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:29:03,238 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com.sg" (task=18)
+2015-01-07 22:29:04,129 [lib.cuckoo.core.scheduler] INFO: Task #18: acquired machine cuckoo1 (label=Win7-64)
+2015-01-07 22:29:04,134 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28580 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/18/dump.pcap)
+2015-01-07 22:29:05,920 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-07 22:29:07,278 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/13/dump.pcap".
+2015-01-07 22:29:08,303 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-07 22:29:08,787 [lib.cuckoo.core.scheduler] INFO: Task #13: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/13)
+2015-01-07 22:29:10,047 [lib.cuckoo.core.scheduler] INFO: Task #13: analysis procedure completed
+2015-01-07 22:29:33,389 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-07 22:29:36,553 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-07 22:29:38,198 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-07 22:29:43,094 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:29:43,580 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.cracked.com" (task=19)
+2015-01-07 22:29:44,155 [lib.cuckoo.core.scheduler] INFO: Task #19: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-07 22:29:44,160 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28739 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/19/dump.pcap)
+2015-01-07 22:29:46,128 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/16/dump.pcap".
+2015-01-07 22:29:48,030 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:29:48,032 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/17/dump.pcap".
+2015-01-07 22:29:48,253 [lib.cuckoo.core.scheduler] INFO: Task #16: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/16)
+2015-01-07 22:29:48,765 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.collegehumor.com" (task=20)
+2015-01-07 22:29:49,209 [lib.cuckoo.core.scheduler] INFO: Task #20: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-07 22:29:49,214 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 28775 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/20/dump.pcap)
+2015-01-07 22:29:50,210 [lib.cuckoo.core.scheduler] INFO: Task #16: analysis procedure completed
+2015-01-07 22:29:51,117 [lib.cuckoo.core.scheduler] INFO: Task #17: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/17)
+2015-01-07 22:29:51,875 [lib.cuckoo.core.scheduler] INFO: Task #17: analysis procedure completed
+2015-01-07 22:30:03,086 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-07 22:30:04,643 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-07 22:30:04,927 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-07 22:30:11,579 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:30:11,580 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/18/dump.pcap".
+2015-01-07 22:30:14,553 [lib.cuckoo.core.scheduler] INFO: Task #18: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/18)
+2015-01-07 22:30:15,313 [lib.cuckoo.core.scheduler] INFO: Task #18: analysis procedure completed
+2015-01-07 22:30:22,948 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-07 22:30:25,257 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-07 22:30:27,703 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:30:27,710 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/19/dump.pcap".
+2015-01-07 22:30:27,731 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-07 22:30:27,733 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/20/dump.pcap".
+2015-01-07 22:30:29,445 [lib.cuckoo.core.plugins] WARNING: The processing module "VirusTotal" returned the following error: Unable to convert response to JSON: No JSON object could be decoded
+2015-01-07 22:30:29,696 [lib.cuckoo.core.scheduler] INFO: Task #19: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/19)
+2015-01-07 22:30:29,927 [lib.cuckoo.core.scheduler] INFO: Task #19: analysis procedure completed
+2015-01-07 22:30:29,928 [lib.cuckoo.core.scheduler] INFO: Task #20: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/20)
+2015-01-07 22:30:30,278 [lib.cuckoo.core.scheduler] INFO: Task #20: analysis procedure completed
+2015-01-08 08:22:54,029 [root] CRITICAL: CuckooCriticalError: Unable to bind ResultServer on 130.195.4.93:2042: [Errno 99] Cannot assign requested address
+2015-01-08 08:28:39,025 [root] CRITICAL: CuckooCriticalError: Unable to bind ResultServer on 130.195.4.93:2042: [Errno 99] Cannot assign requested address
+2015-01-08 08:29:08,996 [root] CRITICAL: CuckooCriticalError: Unable to bind ResultServer on 130.195.4.93:2042: [Errno 99] Cannot assign requested address
+2015-01-08 08:32:38,367 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 08:32:40,337 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 08:32:40,342 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 08:32:40,347 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 08:32:41,561 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.gamefaqs.com" (task=21)
+2015-01-08 08:32:41,796 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=22)
+2015-01-08 08:32:42,056 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.facebook.com" (task=23)
+2015-01-08 08:32:42,276 [lib.cuckoo.core.scheduler] INFO: Task #21: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 08:32:42,292 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 5918 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/21/dump.pcap)
+2015-01-08 08:32:42,477 [lib.cuckoo.core.scheduler] INFO: Task #22: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:32:42,492 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 5919 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/22/dump.pcap)
+2015-01-08 08:32:42,921 [lib.cuckoo.core.scheduler] INFO: Task #23: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:32:42,926 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 5930 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/23/dump.pcap)
+2015-01-08 08:33:11,740 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:33:12,534 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 08:33:12,644 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:33:36,121 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:33:45,050 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.sp.edu.sg" (task=24)
+2015-01-08 08:33:45,051 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:33:45,239 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:33:46,371 [lib.cuckoo.core.scheduler] INFO: Task #24: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:33:46,764 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6233 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/24/dump.pcap)
+2015-01-08 08:33:47,463 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/23/dump.pcap".
+2015-01-08 08:33:51,270 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 08:33:53,288 [lib.cuckoo.core.scheduler] ERROR: VBoxManage exited with error restoring the machine's snapshot
+2015-01-08 08:33:54,765 [lib.cuckoo.core.scheduler] INFO: Task #23: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/23)
+2015-01-08 08:33:55,423 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:33:55,425 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/22/dump.pcap".
+2015-01-08 08:33:56,253 [lib.cuckoo.core.scheduler] INFO: Task #23: analysis procedure completed
+2015-01-08 08:33:56,269 [lib.cuckoo.common.abstracts] INFO: Still 2 guests alive. Shutting down...
+2015-01-08 08:33:56,727 [lib.cuckoo.common.abstracts] WARNING: Unable to shutdown machine Win7-64, please check manually. Error: Trying to stop an already stopped vm Win7-64
+2015-01-08 08:33:56,945 [lib.cuckoo.core.scheduler] WARNING: Unable to stop machine Win7-64 3: Trying to stop an already stopped vm Win7-64 3
+2015-01-08 08:33:57,409 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.sp.edu.sg" (task=24)
+2015-01-08 08:33:57,596 [lib.cuckoo.common.abstracts] WARNING: Unable to shutdown machine Win7-64 3, please check manually. Error: Trying to stop an already stopped vm Win7-64 3
+2015-01-08 08:37:50,747 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 08:37:52,627 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 08:37:52,630 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 08:37:52,632 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 08:37:53,877 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.co.nz" (task=25)
+2015-01-08 08:37:54,072 [lib.cuckoo.core.scheduler] INFO: Task #25: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 08:37:54,077 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6552 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/25/dump.pcap)
+2015-01-08 08:37:54,263 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com.sg" (task=26)
+2015-01-08 08:37:54,693 [lib.cuckoo.core.scheduler] INFO: Task #26: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:37:54,698 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6564 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/26/dump.pcap)
+2015-01-08 08:37:54,920 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.cracked.com" (task=27)
+2015-01-08 08:37:55,085 [lib.cuckoo.core.scheduler] INFO: Task #27: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:37:55,088 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6574 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/27/dump.pcap)
+2015-01-08 08:38:05,954 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:38:16,498 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:38:20,452 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 08:38:38,324 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:38:43,006 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:38:43,144 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:38:44,165 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.collegehumor.com" (task=28)
+2015-01-08 08:38:45,020 [lib.cuckoo.core.scheduler] INFO: Task #28: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:38:45,105 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6881 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/28/dump.pcap)
+2015-01-08 08:38:45,939 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/27/dump.pcap".
+2015-01-08 08:38:49,422 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:38:49,753 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/26/dump.pcap".
+2015-01-08 08:38:50,262 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.google.com/" (task=29)
+2015-01-08 08:38:50,673 [lib.cuckoo.core.scheduler] INFO: Task #29: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:38:50,677 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6951 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/29/dump.pcap)
+2015-01-08 08:38:50,766 [lib.cuckoo.core.scheduler] INFO: Task #27: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/27)
+2015-01-08 08:38:51,837 [lib.cuckoo.core.scheduler] INFO: Task #27: analysis procedure completed
+2015-01-08 08:38:52,640 [lib.cuckoo.core.scheduler] INFO: Task #26: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/26)
+2015-01-08 08:38:53,214 [lib.cuckoo.core.scheduler] INFO: Task #26: analysis procedure completed
+2015-01-08 08:38:55,112 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 08:38:58,704 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:38:58,706 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/25/dump.pcap".
+2015-01-08 08:38:59,099 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.facebook.com/" (task=30)
+2015-01-08 08:38:59,628 [lib.cuckoo.core.scheduler] INFO: Task #30: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 08:38:59,633 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7084 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/30/dump.pcap)
+2015-01-08 08:39:00,592 [lib.cuckoo.core.scheduler] INFO: Task #25: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/25)
+2015-01-08 08:39:00,938 [lib.cuckoo.core.scheduler] INFO: Task #25: analysis procedure completed
+2015-01-08 08:39:04,613 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:39:06,402 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:39:17,047 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 08:39:34,928 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:39:40,032 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:39:40,033 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/28/dump.pcap".
+2015-01-08 08:39:40,708 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.youtube.com/" (task=31)
+2015-01-08 08:39:41,336 [lib.cuckoo.core.scheduler] INFO: Task #31: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:39:41,377 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7247 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/31/dump.pcap)
+2015-01-08 08:39:42,088 [lib.cuckoo.core.scheduler] INFO: Task #28: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/28)
+2015-01-08 08:39:42,643 [lib.cuckoo.core.scheduler] INFO: Task #28: analysis procedure completed
+2015-01-08 08:39:57,652 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:41:25,139 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:41:32,188 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:41:32,189 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/29/dump.pcap".
+2015-01-08 08:41:32,963 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.yahoo.com/" (task=32)
+2015-01-08 08:41:33,678 [lib.cuckoo.core.scheduler] INFO: Task #32: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:41:33,682 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7406 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/32/dump.pcap)
+2015-01-08 08:41:34,789 [lib.cuckoo.core.scheduler] INFO: Task #29: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/29)
+2015-01-08 08:41:36,613 [lib.cuckoo.core.scheduler] INFO: Task #29: analysis procedure completed
+2015-01-08 08:41:45,221 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 08:41:45,880 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:41:48,714 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:41:48,721 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/30/dump.pcap".
+2015-01-08 08:41:48,997 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.baidu.com/" (task=33)
+2015-01-08 08:41:49,337 [lib.cuckoo.core.scheduler] INFO: Task #33: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 08:41:49,378 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7533 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/33/dump.pcap)
+2015-01-08 08:41:50,419 [lib.cuckoo.core.scheduler] INFO: Task #30: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/30)
+2015-01-08 08:41:51,002 [lib.cuckoo.core.scheduler] INFO: Task #30: analysis procedure completed
+2015-01-08 08:42:13,945 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:42:16,989 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 08:42:18,705 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:42:18,707 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/31/dump.pcap".
+2015-01-08 08:42:19,346 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.wikipedia.org/" (task=34)
+2015-01-08 08:42:19,870 [lib.cuckoo.core.scheduler] INFO: Task #34: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:42:19,874 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7667 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/34/dump.pcap)
+2015-01-08 08:42:20,693 [lib.cuckoo.core.scheduler] INFO: Task #31: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/31)
+2015-01-08 08:42:22,509 [lib.cuckoo.core.scheduler] INFO: Task #31: analysis procedure completed
+2015-01-08 08:42:36,908 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:44:01,848 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:44:05,537 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:44:05,539 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/32/dump.pcap".
+2015-01-08 08:44:05,865 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.amazon.com/" (task=35)
+2015-01-08 08:44:06,246 [lib.cuckoo.core.scheduler] INFO: Task #35: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:44:06,295 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7803 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/35/dump.pcap)
+2015-01-08 08:44:07,602 [lib.cuckoo.core.scheduler] INFO: Task #32: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/32)
+2015-01-08 08:44:08,135 [lib.cuckoo.core.scheduler] INFO: Task #32: analysis procedure completed
+2015-01-08 08:44:18,044 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:44:51,299 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:44:53,036 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 08:44:57,426 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:44:57,428 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/34/dump.pcap".
+2015-01-08 08:44:58,263 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.twitter.com/" (task=36)
+2015-01-08 08:44:58,928 [lib.cuckoo.core.scheduler] INFO: Task #36: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 08:44:58,932 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7983 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/36/dump.pcap)
+2015-01-08 08:44:59,848 [lib.cuckoo.core.scheduler] INFO: Task #34: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/34)
+2015-01-08 08:45:03,079 [lib.cuckoo.core.scheduler] INFO: Task #34: analysis procedure completed
+2015-01-08 08:45:03,368 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.taobao.com/" (task=37)
+2015-01-08 08:45:03,741 [lib.cuckoo.core.scheduler] INFO: Task #37: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 08:45:03,745 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 7996 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/37/dump.pcap)
+2015-01-08 08:45:04,121 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:45:04,357 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/33/dump.pcap".
+2015-01-08 08:45:06,028 [lib.cuckoo.core.scheduler] INFO: Task #33: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/33)
+2015-01-08 08:45:06,760 [lib.cuckoo.core.scheduler] INFO: Task #33: analysis procedure completed
+2015-01-08 08:45:13,455 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 08:45:27,531 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 08:46:24,701 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:46:30,860 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:46:30,861 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/35/dump.pcap".
+2015-01-08 08:46:31,632 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.qq.com/" (task=38)
+2015-01-08 08:46:32,345 [lib.cuckoo.core.scheduler] INFO: Task #38: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 08:46:32,397 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 8203 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/38/dump.pcap)
+2015-01-08 08:46:32,618 [lib.cuckoo.core.scheduler] INFO: Task #35: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/35)
+2015-01-08 08:46:34,078 [lib.cuckoo.core.scheduler] INFO: Task #35: analysis procedure completed
+2015-01-08 08:46:51,717 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 08:47:37,403 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 08:47:41,045 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:47:41,047 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/36/dump.pcap".
+2015-01-08 08:47:42,501 [lib.cuckoo.core.scheduler] INFO: Task #36: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/36)
+2015-01-08 08:47:42,883 [lib.cuckoo.core.scheduler] INFO: Task #36: analysis procedure completed
+2015-01-08 08:47:49,686 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 08:47:52,722 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:47:52,724 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/37/dump.pcap".
+2015-01-08 08:47:54,351 [lib.cuckoo.core.scheduler] INFO: Task #37: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/37)
+2015-01-08 08:47:54,540 [lib.cuckoo.core.scheduler] INFO: Task #37: analysis procedure completed
+2015-01-08 08:49:03,108 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 08:49:05,130 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 08:49:05,131 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/38/dump.pcap".
+2015-01-08 08:49:06,918 [lib.cuckoo.core.scheduler] INFO: Task #38: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/38)
+2015-01-08 08:49:07,091 [lib.cuckoo.core.scheduler] INFO: Task #38: analysis procedure completed
+2015-01-08 09:07:09,194 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.google.com/" (task=39)
+2015-01-08 09:07:09,386 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.facebook.com/" (task=40)
+2015-01-08 09:07:09,539 [lib.cuckoo.core.scheduler] INFO: Task #39: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:07:09,551 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 8712 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/39/dump.pcap)
+2015-01-08 09:07:09,691 [lib.cuckoo.core.scheduler] INFO: Task #40: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:07:09,697 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 8713 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/40/dump.pcap)
+2015-01-08 09:07:10,148 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.youtube.com/" (task=41)
+2015-01-08 09:07:10,755 [lib.cuckoo.core.scheduler] INFO: Task #41: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:07:10,761 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 8749 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/41/dump.pcap)
+2015-01-08 09:07:16,708 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:07:21,136 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:07:34,604 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:09:43,410 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:09:44,388 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:09:46,198 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.yahoo.com/" (task=42)
+2015-01-08 09:09:46,353 [lib.cuckoo.core.scheduler] INFO: Task #42: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:09:46,364 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:09:46,365 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/40/dump.pcap".
+2015-01-08 09:09:46,372 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9108 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/42/dump.pcap)
+2015-01-08 09:09:47,756 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:09:47,758 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/41/dump.pcap".
+2015-01-08 09:09:48,629 [lib.cuckoo.core.scheduler] INFO: Task #40: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/40)
+2015-01-08 09:09:48,633 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.baidu.com/" (task=43)
+2015-01-08 09:09:49,140 [lib.cuckoo.core.scheduler] INFO: Task #40: analysis procedure completed
+2015-01-08 09:09:49,525 [lib.cuckoo.core.scheduler] INFO: Task #43: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:09:49,530 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9156 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/43/dump.pcap)
+2015-01-08 09:09:50,283 [lib.cuckoo.core.scheduler] INFO: Task #41: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/41)
+2015-01-08 09:09:50,920 [lib.cuckoo.core.scheduler] INFO: Task #41: analysis procedure completed
+2015-01-08 09:09:56,208 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:09:57,995 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:09:58,602 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:10:02,418 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:10:02,419 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/39/dump.pcap".
+2015-01-08 09:10:02,667 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.wikipedia.org/" (task=44)
+2015-01-08 09:10:02,836 [lib.cuckoo.core.scheduler] INFO: Task #44: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:10:02,840 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9312 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/44/dump.pcap)
+2015-01-08 09:10:04,259 [lib.cuckoo.core.scheduler] INFO: Task #39: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/39)
+2015-01-08 09:10:05,109 [lib.cuckoo.core.scheduler] INFO: Task #39: analysis procedure completed
+2015-01-08 09:10:27,072 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:12:13,363 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:12:14,771 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:12:16,652 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:12:16,657 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/42/dump.pcap".
+2015-01-08 09:12:16,923 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.amazon.com/" (task=45)
+2015-01-08 09:12:17,138 [lib.cuckoo.core.scheduler] INFO: Task #45: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:12:17,180 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9496 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/45/dump.pcap)
+2015-01-08 09:12:18,444 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:12:18,817 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/43/dump.pcap".
+2015-01-08 09:12:18,989 [lib.cuckoo.core.scheduler] INFO: Task #42: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/42)
+2015-01-08 09:12:19,345 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.twitter.com/" (task=46)
+2015-01-08 09:12:19,667 [lib.cuckoo.core.scheduler] INFO: Task #46: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:12:19,671 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9542 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/46/dump.pcap)
+2015-01-08 09:12:20,451 [lib.cuckoo.core.scheduler] INFO: Task #43: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/43)
+2015-01-08 09:12:20,724 [lib.cuckoo.core.scheduler] INFO: Task #42: analysis procedure completed
+2015-01-08 09:12:21,638 [lib.cuckoo.core.scheduler] INFO: Task #43: analysis procedure completed
+2015-01-08 09:12:29,519 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:12:36,064 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:12:46,864 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:12:54,270 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:12:54,271 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/44/dump.pcap".
+2015-01-08 09:12:54,975 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.taobao.com/" (task=47)
+2015-01-08 09:12:55,556 [lib.cuckoo.core.scheduler] INFO: Task #47: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:12:55,560 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9714 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/47/dump.pcap)
+2015-01-08 09:12:56,502 [lib.cuckoo.core.scheduler] INFO: Task #44: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/44)
+2015-01-08 09:12:58,041 [lib.cuckoo.core.scheduler] INFO: Task #44: analysis procedure completed
+2015-01-08 09:13:19,293 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:14:42,453 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:14:45,431 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:14:45,432 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/45/dump.pcap".
+2015-01-08 09:14:45,733 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.qq.com/" (task=48)
+2015-01-08 09:14:45,947 [lib.cuckoo.core.scheduler] INFO: Task #48: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:14:45,971 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 9873 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/48/dump.pcap)
+2015-01-08 09:14:47,769 [lib.cuckoo.core.scheduler] INFO: Task #45: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/45)
+2015-01-08 09:14:48,377 [lib.cuckoo.core.scheduler] INFO: Task #45: analysis procedure completed
+2015-01-08 09:14:55,193 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:14:58,991 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:15:01,194 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:15:01,195 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/46/dump.pcap".
+2015-01-08 09:15:02,853 [lib.cuckoo.core.scheduler] INFO: Task #46: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/46)
+2015-01-08 09:15:03,076 [lib.cuckoo.core.scheduler] INFO: Task #46: analysis procedure completed
+2015-01-08 09:15:39,549 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:15:42,538 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:15:42,539 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/47/dump.pcap".
+2015-01-08 09:15:44,053 [lib.cuckoo.core.scheduler] INFO: Task #47: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/47)
+2015-01-08 09:15:44,355 [lib.cuckoo.core.scheduler] INFO: Task #47: analysis procedure completed
+2015-01-08 09:17:15,467 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:17:17,566 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:17:17,568 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/48/dump.pcap".
+2015-01-08 09:17:19,214 [lib.cuckoo.core.scheduler] INFO: Task #48: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/48)
+2015-01-08 09:17:19,388 [lib.cuckoo.core.scheduler] INFO: Task #48: analysis procedure completed
+2015-01-08 09:17:28,522 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.google.co.in/" (task=49)
+2015-01-08 09:17:28,714 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.live.com/" (task=50)
+2015-01-08 09:17:29,135 [lib.cuckoo.core.scheduler] INFO: Task #49: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:17:29,147 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10106 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/49/dump.pcap)
+2015-01-08 09:17:29,342 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.linkedin.com/" (task=51)
+2015-01-08 09:17:29,496 [lib.cuckoo.core.scheduler] INFO: Task #50: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:17:29,508 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10108 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/50/dump.pcap)
+2015-01-08 09:17:29,665 [lib.cuckoo.core.scheduler] INFO: Task #51: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:17:29,670 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10109 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/51/dump.pcap)
+2015-01-08 09:17:35,698 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:17:43,020 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:17:46,036 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:19:59,680 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:20:04,555 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:20:04,557 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/50/dump.pcap".
+2015-01-08 09:20:04,964 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.sina.com.cn/" (task=52)
+2015-01-08 09:20:05,428 [lib.cuckoo.core.scheduler] INFO: Task #52: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:20:05,769 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10458 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/52/dump.pcap)
+2015-01-08 09:20:07,339 [lib.cuckoo.core.scheduler] INFO: Task #50: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/50)
+2015-01-08 09:20:08,289 [lib.cuckoo.core.scheduler] INFO: Task #50: analysis procedure completed
+2015-01-08 09:20:09,091 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:20:10,901 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:20:13,207 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:20:13,209 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/51/dump.pcap".
+2015-01-08 09:20:14,461 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:20:14,463 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/49/dump.pcap".
+2015-01-08 09:20:14,810 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.hao123.com/" (task=53)
+2015-01-08 09:20:15,177 [lib.cuckoo.core.scheduler] INFO: Task #53: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:20:15,182 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10572 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/53/dump.pcap)
+2015-01-08 09:20:15,826 [lib.cuckoo.core.scheduler] INFO: Task #49: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/49)
+2015-01-08 09:20:16,082 [lib.cuckoo.core.scheduler] INFO: Task #51: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/51)
+2015-01-08 09:20:16,487 [lib.cuckoo.core.scheduler] INFO: Task #49: analysis procedure completed
+2015-01-08 09:20:17,021 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.weibo.com/" (task=54)
+2015-01-08 09:20:17,452 [lib.cuckoo.core.scheduler] INFO: Task #54: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:20:17,458 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10615 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/54/dump.pcap)
+2015-01-08 09:20:17,846 [lib.cuckoo.core.scheduler] INFO: Task #51: analysis procedure completed
+2015-01-08 09:20:22,886 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:20:32,554 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:20:39,244 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:22:50,701 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:22:52,739 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:22:57,023 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:22:57,024 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/52/dump.pcap".
+2015-01-08 09:22:57,933 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:22:57,934 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/54/dump.pcap".
+2015-01-08 09:22:58,312 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.blogspot.com/" (task=55)
+2015-01-08 09:22:58,542 [lib.cuckoo.core.scheduler] INFO: Task #55: acquired machine cuckoo2 (label=Win7-64 2)
+2015-01-08 09:22:58,567 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10919 (interface=vboxnet0, host=130.195.4.91, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/55/dump.pcap)
+2015-01-08 09:22:59,458 [lib.cuckoo.core.scheduler] INFO: Task #52: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/52)
+2015-01-08 09:22:59,934 [lib.cuckoo.core.scheduler] INFO: Task #52: analysis procedure completed
+2015-01-08 09:22:59,945 [lib.cuckoo.core.scheduler] INFO: Task #54: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/54)
+2015-01-08 09:22:59,948 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.yahoo.co.jp/" (task=56)
+2015-01-08 09:23:00,527 [lib.cuckoo.core.scheduler] INFO: Task #54: analysis procedure completed
+2015-01-08 09:23:01,039 [lib.cuckoo.core.scheduler] INFO: Task #56: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:23:01,043 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 10967 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/56/dump.pcap)
+2015-01-08 09:23:05,062 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:23:08,359 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:23:08,360 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/53/dump.pcap".
+2015-01-08 09:23:08,912 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.tmall.com/" (task=57)
+2015-01-08 09:23:09,276 [lib.cuckoo.core.scheduler] INFO: Task #57: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 09:23:09,282 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 11105 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/57/dump.pcap)
+2015-01-08 09:23:09,944 [lib.cuckoo.core.scheduler] INFO: Task #53: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/53)
+2015-01-08 09:23:10,812 [lib.cuckoo.core.scheduler] INFO: Task #53: analysis procedure completed
+2015-01-08 09:23:17,640 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:23:18,548 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo2, ip=130.195.4.91)
+2015-01-08 09:23:27,871 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 09:25:35,211 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:25:38,794 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:25:38,795 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/56/dump.pcap".
+2015-01-08 09:25:39,445 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "http://www.yandex.ru/" (task=58)
+2015-01-08 09:25:39,975 [lib.cuckoo.core.scheduler] INFO: Task #58: acquired machine cuckoo3 (label=Win7-64 3)
+2015-01-08 09:25:40,008 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 11290 (interface=vboxnet0, host=130.195.4.89, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/58/dump.pcap)
+2015-01-08 09:25:40,147 [lib.cuckoo.core.guest] INFO: cuckoo2: analysis completed successfully
+2015-01-08 09:25:42,360 [lib.cuckoo.core.scheduler] INFO: Task #56: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/56)
+2015-01-08 09:25:43,029 [lib.cuckoo.core.scheduler] INFO: Task #56: analysis procedure completed
+2015-01-08 09:25:45,199 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:25:45,200 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/55/dump.pcap".
+2015-01-08 09:25:47,237 [lib.cuckoo.core.scheduler] INFO: Task #55: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/55)
+2015-01-08 09:25:47,873 [lib.cuckoo.core.scheduler] INFO: Task #55: analysis procedure completed
+2015-01-08 09:25:53,749 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 09:25:57,180 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo3, ip=130.195.4.89)
+2015-01-08 09:25:57,211 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:25:57,213 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/57/dump.pcap".
+2015-01-08 09:25:58,858 [lib.cuckoo.core.scheduler] INFO: Task #57: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/57)
+2015-01-08 09:25:59,660 [lib.cuckoo.core.scheduler] INFO: Task #57: analysis procedure completed
+2015-01-08 09:28:07,172 [lib.cuckoo.core.guest] INFO: cuckoo3: analysis completed successfully
+2015-01-08 09:28:09,438 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 09:28:09,440 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/58/dump.pcap".
+2015-01-08 09:28:11,118 [lib.cuckoo.core.scheduler] INFO: Task #58: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/58)
+2015-01-08 09:28:11,295 [lib.cuckoo.core.scheduler] INFO: Task #58: analysis procedure completed
+2015-01-08 14:49:10,399 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 14:49:12,402 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 14:49:12,405 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 14:49:12,407 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 14:49:13,607 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=59)
+2015-01-08 14:49:13,802 [lib.cuckoo.core.scheduler] INFO: Task #59: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 14:49:13,807 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 16170 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/59/dump.pcap)
+2015-01-08 14:49:18,207 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 14:49:35,599 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 14:55:20,168 [lib.cuckoo.core.scheduler] WARNING: Unable to stop machine Win7-64: Timeout hit while for machine Win7-64 to change status
+2015-01-08 14:55:20,743 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 14:55:20,746 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/59/dump.pcap".
+2015-01-08 14:55:22,579 [lib.cuckoo.core.scheduler] INFO: Task #59: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/59)
+2015-01-08 14:55:22,776 [lib.cuckoo.core.scheduler] INFO: Task #59: analysis procedure completed
+2015-01-08 16:11:47,445 [lib.cuckoo.core.resultserver] WARNING: Cannot bind ResultServer on port 2042, trying another port.
+2015-01-08 16:11:47,446 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:12:42,334 [lib.cuckoo.core.resultserver] WARNING: Cannot bind ResultServer on port 2042, trying another port.
+2015-01-08 16:12:42,335 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:15:55,495 [root] CRITICAL: CuckooCriticalError: Please update your configuration. Unable to shut 'Win7-64' down or find the machine in its proper state: Timeout hit while for machine Win7-64 to change status
+2015-01-08 16:22:53,344 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:22:56,538 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 16:22:56,541 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 16:22:56,543 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 16:22:57,751 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=60)
+2015-01-08 16:22:57,974 [lib.cuckoo.core.scheduler] INFO: Task #60: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:22:57,978 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 21683 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/60/dump.pcap)
+2015-01-08 16:23:01,993 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:23:19,391 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 16:23:21,631 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 16:23:21,633 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/60/dump.pcap".
+2015-01-08 16:23:23,546 [lib.cuckoo.core.scheduler] INFO: Task #60: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/60)
+2015-01-08 16:23:23,741 [lib.cuckoo.core.scheduler] INFO: Task #60: analysis procedure completed
+2015-01-08 16:23:53,527 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.cracked.com" (task=61)
+2015-01-08 16:23:53,731 [lib.cuckoo.core.scheduler] INFO: Task #61: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:23:53,736 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 21821 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/61/dump.pcap)
+2015-01-08 16:23:57,717 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:24:15,107 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 16:24:17,424 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 16:24:17,426 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/61/dump.pcap".
+2015-01-08 16:24:19,272 [lib.cuckoo.core.scheduler] INFO: Task #61: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/61)
+2015-01-08 16:24:19,472 [lib.cuckoo.core.scheduler] INFO: Task #61: analysis procedure completed
+2015-01-08 16:26:52,126 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:26:53,959 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 16:26:53,961 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 16:26:53,963 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 16:26:55,166 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.cracked.com" (task=62)
+2015-01-08 16:26:55,353 [lib.cuckoo.core.scheduler] INFO: Task #62: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:26:55,358 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 22083 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/62/dump.pcap)
+2015-01-08 16:26:59,271 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:29:33,067 [lib.cuckoo.common.abstracts] INFO: Still 1 guests alive. Shutting down...
+2015-01-08 16:29:58,863 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:30:02,133 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 16:30:02,136 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 16:30:02,139 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 16:30:24,742 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.cracked.com" (task=63)
+2015-01-08 16:30:24,928 [lib.cuckoo.core.scheduler] INFO: Task #63: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:30:24,932 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 22421 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/63/dump.pcap)
+2015-01-08 16:30:28,941 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:30:42,380 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 16:30:44,454 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 16:30:44,456 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/63/dump.pcap".
+2015-01-08 16:30:46,250 [lib.cuckoo.core.scheduler] INFO: Task #63: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/63)
+2015-01-08 16:30:46,504 [lib.cuckoo.core.scheduler] INFO: Task #63: analysis procedure completed
+2015-01-08 16:32:11,633 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=64)
+2015-01-08 16:32:11,821 [lib.cuckoo.core.scheduler] INFO: Task #64: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:32:11,826 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 22613 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/64/dump.pcap)
+2015-01-08 16:32:15,816 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:32:29,309 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 16:32:31,304 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 16:32:31,306 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/64/dump.pcap".
+2015-01-08 16:32:32,862 [lib.cuckoo.core.scheduler] INFO: Task #64: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/64)
+2015-01-08 16:32:33,087 [lib.cuckoo.core.scheduler] INFO: Task #64: analysis procedure completed
+2015-01-08 16:41:41,307 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-08 16:41:43,026 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-08 16:41:43,028 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-08 16:41:43,031 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2015-01-08 16:41:54,474 [lib.cuckoo.core.scheduler] INFO: Starting analysis of URL "www.google.com" (task=65)
+2015-01-08 16:41:54,662 [lib.cuckoo.core.scheduler] INFO: Task #65: acquired machine cuckoo1 (label=Win7-64)
+2015-01-08 16:41:54,666 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 22969 (interface=vboxnet0, host=130.195.4.92, dump path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/65/dump.pcap)
+2015-01-08 16:41:58,574 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=cuckoo1, ip=130.195.4.92)
+2015-01-08 16:42:12,011 [lib.cuckoo.core.guest] INFO: cuckoo1: analysis completed successfully
+2015-01-08 16:42:15,107 [modules.processing.behavior] WARNING: Analysis results folder does not contain any file.
+2015-01-08 16:42:15,109 [Processing.Pcap] WARNING: The PCAP file does not exist at path "/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/65/dump.pcap".
+2015-01-08 16:42:16,892 [lib.cuckoo.core.scheduler] INFO: Task #65: reports generation completed (path=/home/user/Downloads/zombiebeatdown-master/cuckoo/storage/analyses/65)
+2015-01-08 16:42:17,121 [lib.cuckoo.core.scheduler] INFO: Task #65: analysis procedure completed
+2015-01-15 18:58:55,247 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2015-01-15 18:58:57,581 [lib.cuckoo.core.scheduler] INFO: Loaded 3 machine/s
+2015-01-15 18:58:57,584 [lib.cuckoo.core.scheduler] WARNING: The SQLite database is not compatible with multi-threaded use-cases such as running multiple virtual machine in parallel. Please upgrade to PostgreSQL or MySQL when running multiple VMs.
+2015-01-15 18:58:57,587 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.

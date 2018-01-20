@@ -1,0 +1,152 @@
+<!--Created by: Micah Cinco
+	Version 1. October 2014-->
+
+<html>
+<head>
+	<style>
+		body { font: Georgia, "Times New Roman", Sans-Serif; background: #fff repeat-x; 
+		color: #ffffff; font-size: 15px; background: black }
+		a { color: #A82A15; text-decoration: none; }
+		h1 {  float: left; margin: 20px 10px 0; font-size: 40px; color: #fff; }
+		h2 { font-size: 2.4em; font-weight: normal; margin: 0 0 20px; color: #A82A15;}
+		p  { margin: 5px 0 15px; line-height: 1.6em; }
+		#header { margin: 0 auto; width: 900px}
+		#top { float: left; padding: 0 }
+		#top li { list-style: none; display: inline; }
+		#top li a { float: left; padding: 6px 20px; margin: 3px 2px 0 0; color: #ccc; }
+		#top li a.current { color: #fff; background: #A82A15; }
+		#top li a:hover { background: #808080; color: #fff; }
+		#content { margin: 0 auto; width: 900px; height: 65%;}
+		#center { float: left; width: 100%; margin: 0 0 15px; }
+		#footer { clear: both; padding: 15px 0; border-top: 1px solid #ccc; min-width: 950px }
+		#heartbeat { float: right }
+		form { display: table }
+		.row { display: table-row }
+		label { display: table-cell; padding: 5px 20px 5px 5px}
+		.server, .heartbeat, .workers, textarea { display: table-cell; width: 150px }
+		textarea { height: 100px; width: 300px}
+		h3 { display: table-row }
+		.label { vertical-align: top }
+	</style>
+	<title>Zombie Beatdown Manager</title>
+</head>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+	// Updates all fields from database
+	$(document).ready(function() {
+		$.getJSON('config.json', function(data) {
+			$.each(data, function(key, value) {
+				$.each(value, function(a, b) {
+					if (a != "$oid") {
+						if (a == "machines") {
+							mac = ""
+							$.each(b, function(index, machine) {
+								mac += machine + "\n";
+							});
+							$('#machines').val(mac);
+						}
+						else {
+							$("#" + a).val(b);
+						}
+					}
+				});
+			});
+		});
+	});
+	
+	function checkform() {
+		// Checks for necessary fields
+		var ip = $('#server_ip').val()
+		var http = $('#http_port').val()
+		var hb = $('#heartbeat_port').val()
+		var folder = $('#analysis_folder').val()
+		var report = $('#report_port').val()
+		var pass = $('#password').val()
+		var machines = $('#machines').val()
+		var period = $('#period').val()
+		var timeout = $('#timeout').val()
+		
+		if (!ip || !http || !hb || !folder || !report || !pass || !machines || !period || !timeout) {
+			alert("Please fill in necessary fields.");
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+	
+</script>
+<body>
+	<div id="header">
+		<h1>Zombie Beatdown Manager</h1>
+		<ul id="top">
+			<li><a href="index.html">Create a Task</a></li>
+			<li><a href="check.html">Check Tasks</a></li>
+			<li><a href="delete.html">Delete Tasks</a></li>
+			<li><a class="current" href="config.html">Configuration</a></li>
+		</ul>
+		
+	</div>
+	<div id="footer"></div>
+	<div id="content">
+		<div id="center">
+			<h2>Configuration</h2>
+			<form method="POST" action="/config">
+				<h3>Server</h3> <br/>
+					<p class="row">
+						<label>Server IP:</label> 
+						<input class="server" id="server_ip" type="text" name="server_ip"> * # Server IP
+					</p>
+					<p class="row">
+						<label>HTTP Port:</label> 
+						<input class="server" id="http_port" type="text" name="http_port"> * # HTTP server port (Recommended not to change, ensure port is open)
+					</p>
+					<p class="row">
+						<label>Heartbeat Port:</label> 
+						<input class="server" id="heartbeat_port" type="text" name="heartbeat_port"> * # Heartbeat server port
+					</p>
+					<p class="row">
+						<label>Analysis Port:</label> 
+						<input class="server" id="report_port" type="text" name="report_port"> * # Analysis collection server port<br/>
+					</p>
+					<p class="row">
+						<label>Password:</label> 
+						<input class="server" id="password" type="text" name="password"> * # Password to transfer analysis files from workers<br/>
+					</p>
+					<p class="row">
+						<label>Analysis Folder:</label> 
+						<input class="server" id="analysis_folder" type="text" name="analysis_folder"> * # Folder to keep generated reports <br/>
+					</p>
+					
+				<br/> <h3>Workers</h3> <br/>
+					<p class="row">
+						<label class="label">Machines:</label> 
+						<textarea class="workers" id="machines" type="text" name="machines"></textarea><br/> * # User accounts and IP of worker machine(s) seperated by comma e.g. user@127.0.0.1, root@10.5.10.5
+					</p>
+				<br/> <h3>Heartbeat</h3> <br/>
+					<p class="row">
+						<label>Period:</label> 
+						<input class="heartbeat" id="period" type="text" name="period"> * # Freqency of heartbeat in seconds
+					</p>
+					<p class="row">
+						<label>Timeout:</label> 
+						<input class="heartbeat" id="timeout" type="text" name="timeout"> * # Maximum number of periods without heartbeat before timeout
+					</p>
+					<br/>
+					
+				<br/> <h3>Alert</h3> <br/>
+					<p class="row">
+						<label class="label">Mailing List:</label> 
+						<textarea class="alert" id="mailing_list" type="text" name="mailing_list"></textarea><br/> # List of emails for ZombieBeatdown alerts
+					</p>
+					<br/>
+				<p>* Required Field</p>
+				<input onclick="return checkform()" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Micah Cinco : ENGR489</p>
+	</div>
+</body>
+</html>

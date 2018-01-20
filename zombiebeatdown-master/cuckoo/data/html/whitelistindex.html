@@ -1,0 +1,72 @@
+{% extends "base-web.html" %}
+{% block content %}
+<script type='text/javascript'>
+
+    function populateDumps() {
+        "{% set counter = 0 %}"
+        "{% for row in rows %}"
+        "{% if row.status == 'reported' %}"
+            myselect.options["{{counter}}"] = new Option("{{row.id ~ " - " ~ row.filename}}", "{{row.id}}", true, false);
+            "{% set counter = counter + 1 %}"
+        "{% endif %}"
+        "{% endfor %}"
+    }
+
+    function createForm(buttonvalue) {
+        mypara = document.getElementById("formcontent");
+        myform = document.createElement("form");
+        myform.id = "formID";
+        myform.setAttribute("method", "post");
+        myform.setAttribute("action", "/whitelist");
+        for (var i = 0; i < buttonvalue; i++){
+            mylabel = document.createElement("Label");
+            mylabeltext = document.createTextNode("Select an analysis:");
+            mylabel.appendChild(mylabeltext);
+            mylabel.htmlFor = "dropdownbox";
+            myselect = document.createElement("select");
+            myselect.id = "dropdownbox"+i;
+            myselect.name = "dropdownbox"+i;
+            populateDumps();
+            myform.appendChild(mylabel);
+            myform.appendChild(myselect);
+        }
+        mybuttonvalue = document.createElement("input");
+        mybuttonvalue.setAttribute("type", "hidden");
+        mybuttonvalue.setAttribute("value", buttonvalue);
+        mybuttonvalue.name = "buttonvalue";
+        myform.appendChild(mybuttonvalue);
+        mybreak = document.createElement("p");
+        myform.appendChild(mybreak);
+        mybutton = document.createElement("input");
+        mybutton.setAttribute("type", "submit");
+        mybutton.setAttribute("value", "Submit");
+        myform.appendChild(mybutton);
+        mypara.appendChild(myform);
+    }
+
+    function deleteForm() {
+        myPara=document.getElementById("formcontent");
+        myform=document.getElementById("formID");
+        if (myform) {
+        myPara.removeChild(myform);
+        }
+    }
+
+</script>
+    <div class="page-header">
+        <h3>Generate Whitelist</h3>
+    </div>
+    <div class="whitelist">
+        <p>
+        <button input value="5" id="button1" onclick="deleteForm();createForm(this.value)">5 Analyses</button>
+        <button input value="10" id="button2" onclick="deleteForm();createForm(this.value)">10 Analyses</button>
+        <button input value="15" id="button3" onclick="deleteForm();createForm(this.value)">15 Analyses</button>
+        </p>
+
+        <p id="formcontent">
+
+        </p>
+        <!--<form method="POST" action="/whitelist" style="display:none" id="form1"-->
+
+    </div>
+{% endblock %}

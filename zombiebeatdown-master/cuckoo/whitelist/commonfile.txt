@@ -1,0 +1,44 @@
+C:\
+c:\autoexec.bat
+C:\Documents and Settings
+C:\Documents and Settings\All Users\Application Data\Microsoft\Network\Connections\Pbk\*.pbk
+C:\Documents and Settings\winxpsp3
+C:\Documents and Settings\winxpsp3\Application Data\Microsoft\Network\Connections\Pbk\*.pbk
+C:\Documents and Settings\winxpsp3\Cookies\
+C:\Documents and Settings\winxpsp3\Cookies\index.dat
+C:\Documents and Settings\winxpsp3\Desktop
+C:\Documents and Settings\winxpsp3\Favorites
+C:\Documents and Settings\winxpsp3\Favorites\desktop.ini
+C:\Documents and Settings\winxpsp3\Favorites\Links
+C:\Documents and Settings\winxpsp3\Favorites\Links\*.*
+C:\Documents and Settings\winxpsp3\Local Settings
+C:\Documents and Settings\winxpsp3\Local Settings\Application Data\Microsoft\Internet Explorer\MSIMGSIZ.DAT
+C:\Documents and Settings\winxpsp3\Local Settings\History
+C:\Documents and Settings\winxpsp3\Local Settings\History\History.IE5\
+C:\Documents and Settings\winxpsp3\Local Settings\History\History.IE5\index.dat
+C:\Documents and Settings\winxpsp3\Local Settings\Temporary Internet Files
+C:\Documents and Settings\winxpsp3\Local Settings\Temporary Internet Files\Content.IE5\
+C:\Documents and Settings\winxpsp3\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+C:\Documents and Settings\winxpsp3\Local Settings\Temporary Internet Files\desktop.ini
+C:\Program Files
+C:\Program Files\Internet Explorer
+C:\Program Files\Internet Explorer\iexplore.exe
+C:\Program Files\Messenger\msmsgs.exe
+C:\WINDOWS\Registration\R000000000007.clb
+C:\WINDOWS\System32\cscui.dll
+C:\WINDOWS\system32\en-US\jscript.dll.mui
+C:\WINDOWS\system32\mshtml.dll
+C:\WINDOWS\system32\mshtml.tlb
+C:\WINDOWS\system32\Ras\*.pbk
+C:\WINDOWS\system32\shdocvw.dll
+C:\WINDOWS\system32\shell32.dll
+C:\WINDOWS\system32\stdole2.tlb
+C:\WINDOWS\system32\url.dll
+C:\WINDOWS\WindowsShell.Config
+C:\WINDOWS\WindowsShell.manifest
+C:\WINDOWS\WindowsShell.Manifest
+IDE#CdRomVBOX_CD-ROM_____________________________1.0_____#42562d3231303037333036372020202020202020#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+MountPointManager
+PIPE\lsarpc
+shadow
+STORAGE#Volume#1&30a96598&0&SignatureE2FAE2FAOffset7E00Length27F4DB200#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}

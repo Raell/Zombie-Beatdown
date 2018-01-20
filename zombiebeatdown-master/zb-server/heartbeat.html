@@ -1,0 +1,44 @@
+<style>
+		body { font: Georgia, "Times New Roman", Sans-Serif; background: #fff repeat-x; 
+		color: #ffffff; font-size: 15px; background: black }
+		p  { margin: 5px 0 15px; line-height: 1.6em; }
+		th, td { text-align: center; padding-left: 15px; padding-right: 15px}
+		th { border-bottom: 1pt solid white; width: 85px }
+		#status { width: 20px }
+</style>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		checkStatus();
+		setInterval(function() {checkStatus()}, 5000);
+	});
+	
+	function checkStatus() {
+		$("#data tbody").html("");
+		$.getJSON('heartbeat.json', function(data) {
+			$.each(data.machines, function(key, value) {
+				var status = "";
+				if(value.status == "Okay") {
+					status = "<img src='Images/green.png' height='16' width='16'/>"
+				}
+				else if(value.status == "Warning") {
+					status = "<img src='Images/yellow.png' height='16' width='16'/>"
+				}
+				else if(value.status == "Down") {
+					status = "<img src='Images/red.png' height='16' width='16'/>"
+				}
+				var tblRow = "<tr>" + "<td>" + status + "</td>" + "<td>" + value.ip + "</td>";
+				$(tblRow).appendTo("#data tbody");
+				//$("#test").text(value.ip);
+			});
+		});
+	}
+</script>
+<table border=1 rules=none frame=box style="border-collapse: collapse" id="data">
+	<thead>
+		<th id="status">Status</th>
+		<th>Worker</th>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
